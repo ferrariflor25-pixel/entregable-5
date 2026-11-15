@@ -6,7 +6,7 @@ Mediante consultas analíticas en SQL, el proyecto busca responder preguntas rel
 
 Objetivos del análisis
 
-Integridad de datos y actividad comercial: Identificación de clientes sin compras registradas y productos sin movimientos de venta, mediante cruces relacionales (LEFT JOIN), para detectar posibles registros inactivos.
+Integridad de datos y actividad comercial: Identificación de clientes sin compras registradas y productos sin movimientos de venta, para detectar posibles registros inactivos.
 
 Comportamiento temporal (quincenas): Comparación de la facturación entre la primera y la segunda quincena de cada mes, con el propósito de identificar variaciones y posibles patrones de consumo.
 
