@@ -35,7 +35,7 @@ dbo.Productos: Tabla maestra que contiene el catálogo de productos disponibles.
 dbo.Categoria: Tabla que almacena la clasificación y agrupación de los productos.
 
 Estas tablas se relacionan mediante identificadores que permiten realizar consultas y análisis integrados sobre la información comercial.
-
+Ventas es la tabla transaccional donde tiene una columna llamada llave foranea que es igual a otra columna de otra tabla (tabla master y columna primary key). Asi se relacionan los datos entre tablas.
 ▶️ Cómo Ejecutar los Scripts SQL
 
 Para reproducir el análisis en un entorno local, seguí los siguientes pasos:
